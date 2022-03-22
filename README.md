@@ -1,8 +1,4 @@
-# blockchain-developer-bootcamp-final-project
-This is my final project submission for the Consensys Academy Bootcamp 2021.
-
-<h1>Legal Document Form Repository</h1>
-
+# <h1>Legal Document Form Repository</h1>
 # About
 
 The Legal Document Form Repository will be a datastore and marketplace to purchase common filable-PDF legal documents such as a simple will, articles of incorporation for specific states or provinces, bill of sale sample, building contract, business plan, etc. Currently, the legal documents are stored as .jpg files, but in future iterations, the documents will be filable-PDFs so that the user can use it for their own purposes and fill them with their own unique information. The legal documents are stored on IPFS and deployed to the Rinkeby Ethereum testnet as ERC721 NFTs. A live demo can be found at: https://legaldoc.surge.sh/ .
@@ -70,8 +66,8 @@ Legal Documents Marketplace
 
 6. Git clone repo, enter directory and install
 
-        $ git clone https://github.com/georgemac510/blockchain-developer-bootcamp-final-project.git
-        $ cd blockchain-developer-bootcamp-final-project/
+        $ git clone https://github.com/FJVentures/legal-doc-nft.git
+        $ cd legal-doc-nft/
         $ yarn install
 
 7. Create an `.env` file to hold your Metamask private key and Infura ID. Add those two pieces of data with no "'s or other symbols such as below:
@@ -119,10 +115,4 @@ Legal Documents Marketplace
 # Live Demo URL
 The demo was deployed as a website to the Rinkeby testnet at https://legaldoc.surge.sh/ using Surge. The address of the deployed contract is at the bottom of the website page. Left-clicking on the contract address at the bottom of the web page will bring you to the rinkeby.etherscan.io page for the contract.
 
-# Project Demo Video
-
-The following Youtube link will bring you to my final project demo video: https://youtu.be/v6fsca4TRFc
-
-Please find a link to the short Canva slideshow used for the video submission at: https://www.canva.com/design/DAEvEjCAUgc/861G5VYuJ1ZaigA6KiyzyQ/view?utm_content=DAEvEjCAUgc&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
-
-<h5>If I am eligible for a Consensys Academy certification, can you please send the certification NFT to mainnet address: 0xf0a345115815bc2C87B0EBE49DF8773a71A49063 </h5>
+# Stay tuned for more updates!
