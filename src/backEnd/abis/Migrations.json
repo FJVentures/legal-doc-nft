@@ -12,8 +12,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [],
@@ -26,8 +25,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [
@@ -52,7 +50,7 @@
   "sourceMap": "56:352:15:-:0;;;103:10;80:33;;;;;;;;;;;;;;;;;;;;56:352;;;;;;;;;;;;;;;;",
   "deployedSourceMap": "56:352:15:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;117:36;;;:::i;:::-;;;;;;;;;;;;;;;;;;;80:33;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;303:103;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;117:36;;;;:::o;80:33::-;;;;;;;;;;;;:::o;303:103::-;215:5;;;;;;;;;;201:19;;:10;:19;;;186:101;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;392:9:::1;365:24;:36;;;;303:103:::0;:::o",
   "source": "// SPDX-License-Identifier: MIT\npragma solidity 0.7.4;\n\ncontract Migrations {\n  address public owner = msg.sender;\n  uint public last_completed_migration;\n\n  modifier restricted() {\n    require(\n      msg.sender == owner,\n      \"This function is restricted to the contract's owner\"\n    );\n    _;\n  }\n\n  function setCompleted(uint completed) public restricted {\n    last_completed_migration = completed;\n  }\n}\n\n//Rinkeby address: 0xa43f8e754033325b5C341a6Ab2656F1cE6dbF6C0",
-  "sourcePath": "/home/john/blockchain-developer-bootcamp-final-project/src/backEnd/contracts/Migrations.sol",
+  "sourcePath": "/home/johnlaptop2/legal-doc-nft/src/backEnd/contracts/Migrations.sol",
   "ast": {
     "absolutePath": "project:/src/backEnd/contracts/Migrations.sol",
     "exportedSymbols": {
@@ -911,9 +909,8 @@
       "transactionHash": "0x27f3d9055bd30d74c173fdf31084e0bf398071f03147ce77ca9ded231b03d28d"
     }
   },
-  "schemaVersion": "3.4.1",
-  "updatedAt": "2021-11-30T22:18:12.184Z",
-  "networkType": "ethereum",
+  "schemaVersion": "3.4.3",
+  "updatedAt": "2022-03-22T14:11:25.072Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},
