@@ -1,4 +1,7 @@
-# <h1>Legal Document Form Repository</h1>
+# blockchain-developer-bootcamp-final-project
+This is my final project submission for the Consensys Academy Bootcamp 2021.
+
+<h1>Legal Document Form Repository</h1>
 
 # About
 
@@ -38,31 +41,27 @@ Legal Documents Marketplace
         $ nvm alias default 14.16.0
         $ nvm use default
 
-2. Install app:
-
-        $ yarn install
-
-3. Install truffle if not installed
+2. Install truffle if not installed
 
         $ truffle version
         $ npm install -g truffle
 
-4. Install ganache-cli if not installed
+3. Install ganache-cli if not installed
 
         $ ganache-cli --version
         $ npm install -g ganache-cli
         $ ganache-cli
 
-    `ganache-cli` will now be running a development blockchain on port `8545` and give you 10 development network accounts with addresses and corresponding private keys which can be imported to Metamask each with 100 ETH for gas and testing.  Make sure that port `8545` is listed in truffle-config.js for `ganache-cli`.
+    `ganache-cli` will now be running a development blockchain on port `8545` and give you 10 development network accounts with    addresses and corresponding private keys which can be imported to Metamask each with 100 ETH for gas and testing.  Make sure that port `8545` is listed in truffle-config.js for `ganache-cli`.
 
-5. Install and run IPFS if not installed
+4. Install and run IPFS if not installed
 
         $ jsipfs version
         $ npm i -g ipfs
         In another terminal run IPFS
         $ jsipfs daemon
 
-6. Install `yarn` if not installed
+5. Install `yarn` if not installed
 
         $ yarn --version
         $ npm install --global yarn
@@ -71,8 +70,8 @@ Legal Documents Marketplace
 
 6. Git clone repo, enter directory and install
 
-        $ git clone https://github.com/FJVentures/legal-doc-nft.git
-        $ cd legal-doc-nft/
+        $ git clone https://github.com/georgemac510/blockchain-developer-bootcamp-final-project.git
+        $ cd blockchain-developer-bootcamp-final-project/
         $ yarn install
 
 7. Create an `.env` file to hold your Metamask private key and Infura ID. Add those two pieces of data with no "'s or other symbols such as below:
@@ -120,5 +119,10 @@ Legal Documents Marketplace
 # Live Demo URL
 The demo was deployed as a website to the Rinkeby testnet at https://legaldoc.surge.sh/ using Surge. The address of the deployed contract is at the bottom of the website page. Left-clicking on the contract address at the bottom of the web page will bring you to the rinkeby.etherscan.io page for the contract.
 
-## Github Repo: 
-                https://github.com/FJVentures/legal-doc-nft.git
+# Project Demo Video
+
+The following Youtube link will bring you to my final project demo video: https://youtu.be/v6fsca4TRFc
+
+Please find a link to the short Canva slideshow used for the video submission at: https://www.canva.com/design/DAEvEjCAUgc/861G5VYuJ1ZaigA6KiyzyQ/view?utm_content=DAEvEjCAUgc&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
+
+<h5>If I am eligible for a Consensys Academy certification, can you please send the certification NFT to mainnet address: 0xf0a345115815bc2C87B0EBE49DF8773a71A49063 </h5>
